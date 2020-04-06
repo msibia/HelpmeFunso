@@ -1,9 +1,13 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 #background_container {
     display: flex; justify-content: center;
 }
 
 #centerpage_container {
-    width: 50%;
+    width: 35%
 }
 
 #logo_container {
@@ -14,9 +18,8 @@
 #centerform_container {
     border-radius: 15px 15px 15px 0px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 60px;
     background-color: white;
-    width: 55%;
 }
 
 .form_label {
@@ -25,11 +28,44 @@
     font-size: 0.75rem;
     margin-bottom: 0.3rem;
     color: #2F4F4F;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
 }
 
 #footnote_container {
     text-align: center;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 80%;
+    color: navy;
+}
+
+.form_field {
+    width: 100%;
+    padding: 8px;
+    height: 30px;
+    border: 0;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+#click_button {
+width: 105%;
+height: 3.25rem;
+border: 0;
+border-radius: 10px 10px 10px 0px;
+font-weight: bold;
+background-color: navy;
+color: white;
+}
+
+#form_list {
+    width: 105%;
+    height: 3.25rem;
+    border: 0;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding-left: 0.2rem;
+    color: grey;
 }
 
 
