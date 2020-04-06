@@ -1,0 +1,35 @@
+#background_container {
+    display: flex; justify-content: center;
+}
+
+#centerpage_container {
+    width: 50%;
+}
+
+#logo_container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+#centerform_container {
+    border-radius: 15px 15px 15px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    width: 55%;
+}
+
+.form_label {
+    font-weight: bold;
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 0.3rem;
+    color: #2F4F4F;
+    margin-top: 1.2rem;
+}
+
+#footnote_container {
+    text-align: center;
+}
+
+
