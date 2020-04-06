@@ -1,0 +1,14 @@
+#background_container {
+    display: flex; justify-content: center;
+}
+
+#centerpage_container {
+    width: 50%;
+}
+
+#centerform_container {
+    border-radius: 15px 15px 15px 0px;
+    background-color: white;
+}
+
+
