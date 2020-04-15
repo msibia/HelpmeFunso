@@ -1,0 +1,109 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.topnav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    float: left;
+    width: 99%;
+    height: 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 0.5rem;    
+}
+
+.topnav a {
+  color: #2F4F4F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: #f2f2f2;
+}
+
+#social_container {
+    margin-top: 1.75rem;
+    background-color:#f2f2f2;
+    width: 25%;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 0.5rem;
+    
+}
+
+#img {
+    border-radius: 15px;
+}
+
+#about_me {
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+    text-align: justify;
+    padding-bottom: 1.0rem;
+}
+
+#contact_form {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 1.0rem;
+    margin-top: 1.0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+.form_label {
+    font-weight: bold;
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 0.3rem;
+    color: #2F4F4F;
+    font-size: 15px;
+    padding-top: 0.5rem;
+}
+
+.form_field {
+    width: 97%;
+    padding: 8px;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+   
+}
+
+#message_box {
+    width: 97%;
+    padding: 8px;
+    height: 80px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding-bottom: 0.5rem; 
+}
+
+#click_button {
+    height: 2.5rem;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:#2F4F4F;
+    color:#f2f2f2;
+}
+
+#footnote {
+    font-style: italic;
+    font-size: small;
+    color: whitesmoke;
+}
+
