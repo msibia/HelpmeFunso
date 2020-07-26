@@ -4,39 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    </link>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-    </link>
-    <title>Armstrong Number Indicator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+    <title>Welcome</title>
 </head>
 
-<body style="background-color:#b0aac0;">
+<body style="background-image: url('image.jpg'); overflow: hidden;">
+    <script src="script.js"></script>
+
     <div id="background_container">
-        <div id="center_container">
-            <div id="heading_container">
-                <h2 style="text-align: center; margin-bottom: 0.2rem; color: #50394c;"> <b><br>Armstrong Identifier</b>
-                </h2>
-            </div>
-            <div id="calculator_container"><br>
-                <label class="form_label">Insert Number</label>
-                <input id="number_field" type="number" name="insertnumber" placeholder="Insert Number Here">
-
-                <input id="click_button" type="submit" value="SUBMIT"><br><br>
-
-                <label class="form_label">Return Result</label>
-                <input id="result_field" type="text" name="insertnumber" placeholder="Show Result Here">
-
-
-
-            </div>
-
-
+        <div id="logo_div">
+            <img src="Logo2.png" alt="Logo" width="150" height="150">
         </div>
+        <div id="center_container">
+            <div id="abc">
+                <!-- Popup Div Starts Here -->
+                <div id="popupContact">
+                    <!-- Contact Us Form -->
+                    <form action="#" id="form" method="post" name="form">
+                        <img id="close" src="close_button.jpg" onclick="div_hide()">
+                        <h2>Contact Us</h2>
+                        <hr>
+                        <input id="name" name="name" placeholder="Name" type="text">
+                        <input id="email" name="email" placeholder="Email" type="text">
+                        <textarea id="msg" name="message" placeholder="Message"></textarea>
+                        <a href="javascript:%20check_empty()" id="submit">Send</a>
+                    </form>
+                </div>
+                <!-- Popup Div Ends Here -->
+            </div>
+            <div id="contact">
+                <h1>
+                    Do you think you can make your landing page look this good? </h1>
+                <h3><br> Browse through our website, explore our portfolio and see how easily we can get your landing page to look just like ours.
+                </h3><br>
+                <button id="popup_button" onclick="div_show()">CONTACT US</button>
 
-
-    </div>
+            </div>
 
 </body>
 

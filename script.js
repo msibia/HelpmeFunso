@@ -1,41 +1,17 @@
-window.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
-
-    var button = document.getElementById("click_button");
-    console.log(button)
-
-    var armstr = document.getElementById("number_field")
-
-    function validateInput() {
-
-        var input = armstr.value;
-
-        var numberLength = input.length;
-
-        if (numberLength !== 3) {
-
-            button.disabled = true;
-        }
-        else { button.disabled = false; }
-
+// Validating Empty Field
+function check_empty() {
+    if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+        alert("Fill All Fields !");
+    } else {
+        document.getElementById('form').submit();
+        alert("Form Submitted Successfully...");
     }
-
-    armstr.oninput = validateInput
-
-    function showOutput() {
-        if ( button.disabled == true) {
-
-            alert("Input value must contain three 3 digits!");
-        }
-        else checkArmstrong(input)
-    }
-
-    button.onclick = showOutput
-
-    function checkArmstrong() {
-
-
-    }
-
-});
-
+}
+//Function To Display Popup
+function div_show() {
+    document.getElementById('abc').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide() {
+    document.getElementById('abc').style.display = "none";
+}
