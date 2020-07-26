@@ -10,7 +10,7 @@
 </head>
 
 <body style="background-image: url('image.jpg'); overflow: hidden;">
-    <script src="script.js"></script>
+
 
     <div id="background_container">
         <div class="topnav">
@@ -22,7 +22,7 @@
             <img src="Logo2.png" alt="Logo" width="150" height="150">
         </div>
         <div id="center_container">
-            <div id="abc" style="display: block;z-index: 200;">
+            <div id="abc">
                 <!-- Popup Div Starts Here -->
                 <div id="popupContact">
                     <!-- Contact Us Form -->
@@ -46,9 +46,15 @@
                 <button id="popup_button" onclick="div_show()">CONTACT US</button>
 
             </div>
+            <div id="Greeting">
+                <time id="time">6:21 PM</time>
+                <h1>
+                    <span id="name" contenteditable="true"> Good Morning <br> Welcome to Our Website</span>
+                </h1>
+            </div>
 
         </div>
-
+        <script src="script.js"></script>
 </body>
 
 </html>
