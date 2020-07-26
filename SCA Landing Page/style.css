@@ -48,7 +48,7 @@ body {
     opacity: .95;
     top: 0;
     left: 0;
-    display: block;
+    display: none;
     position: fixed;
     background-color: #313131;
     overflow: auto;
@@ -158,21 +158,10 @@ button {
     cursor: pointer
 }
 
-#img_one {
-    position: relative;
-    width: 500px;
-    height: 300px;
-    right: 0;
-    transition: ease-in;
-    padding-left: 50px;
-}
-
-#img_two {
-    position: relative;
-    top: -100px;
-    left: 150px;
-    width: 500px;
-    height: 300px;
+#Greeting {
+    margin-left: 300px;
+    margin: 33px;
+    padding-left: 20px;
 }
 
 .topnav {
