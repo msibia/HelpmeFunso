@@ -13,17 +13,22 @@
     <script src="script.js"></script>
 
     <div id="background_container">
+        <div class="topnav">
+            <a class="active">Home</a>
+            <a href="#Portfolio">View Portfolio</a>
+            <a href="#about">About Us</a>
+        </div> <br>
         <div id="logo_div">
             <img src="Logo2.png" alt="Logo" width="150" height="150">
         </div>
         <div id="center_container">
-            <div id="abc">
+            <div id="abc" style="display: block;z-index: 200;">
                 <!-- Popup Div Starts Here -->
                 <div id="popupContact">
                     <!-- Contact Us Form -->
                     <form action="#" id="form" method="post" name="form">
-                        <img id="close" src="close_button.jpg" onclick="div_hide()">
-                        <h2>Contact Us</h2>
+                        <img id="close" src="close_button.jpg" onclick="div_hide()" width="20px">
+                        <h2 style="background-color: #ca9c38;">Contact Us</h2>
                         <hr>
                         <input id="name" name="name" placeholder="Name" type="text">
                         <input id="email" name="email" placeholder="Email" type="text">
@@ -41,10 +46,7 @@
                 <button id="popup_button" onclick="div_show()">CONTACT US</button>
 
             </div>
-            <div id="image_div">
-                <img id="img_one" src="img1.jpg">
-                <img id="img_two" src="img3.jpeg">
-            </div>
+
         </div>
 
 </body>
