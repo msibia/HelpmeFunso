@@ -49,8 +49,6 @@ document.addEventListener("keyup", function(event) {
     }
 });
 
-addToDo("Coffee", 1, true, false);
-
 
 
 /*list.addEventListener("click", function(event) {
